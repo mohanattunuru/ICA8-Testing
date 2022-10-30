@@ -41,4 +41,15 @@ public class UrinalsTest {
     void getString() {
         assertEquals("101000", fileIn.nextLine());
     }
+
+    @Test
+    void getWrongString() {
+        assertNotEquals("11111",fileIn.nextLine());
+    }
+
+    @Test
+    void goodString() {
+        String str = fileIn.nextLine();
+        assertTrue(u.goodString(str));
+    }
 }
