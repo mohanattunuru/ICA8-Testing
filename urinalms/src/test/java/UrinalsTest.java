@@ -69,4 +69,11 @@ public class UrinalsTest {
             assertEquals(out, u.countUrinals(in)+"");
         }
     }
+
+    @Test
+    void countOneUrinals() {
+        String in = fileIn.nextLine();
+        String out = fileOut.nextLine();
+        assertEquals(out, u.countUrinals(in)+"");
+    }
 }
