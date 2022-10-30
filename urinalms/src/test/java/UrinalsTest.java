@@ -52,4 +52,21 @@ public class UrinalsTest {
         String str = fileIn.nextLine();
         assertTrue(u.goodString(str));
     }
+
+    @Test
+    void badString() {
+        assertFalse(u.goodString(fileInBad.nextLine()));
+    }
+
+
+
+
+    @Test
+    void countAllUrinals() {
+        while (fileIn.hasNextLine() && fileOut.hasNextLine()) {
+            String in = fileIn.nextLine();
+            String out = fileOut.nextLine();
+            assertEquals(out, u.countUrinals(in)+"");
+        }
+    }
 }
