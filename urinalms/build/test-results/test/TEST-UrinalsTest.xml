@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UrinalsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-30T00:48:08" hostname="DESKTOP-1S6DANF" time="0.574">
+<testsuite name="UrinalsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-30T01:30:30" hostname="DESKTOP-1S6DANF" time="0.383">
   <properties/>
-  <testcase name="getString()" classname="UrinalsTest" time="0.574"/>
+  <testcase name="getString()" classname="UrinalsTest" time="0.383"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
